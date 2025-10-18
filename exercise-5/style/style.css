@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "MyFont";
+  src: url("./fonts/JosefinSans-Italic-VariableFont_wght.ttf") format(".ttf"),
+    url("./fonts/JosefinSans-VariableFont_wght.ttf") format(".ttf");
+}
+
+@theme {
+  --font-yekan: "MyFont";
+  --color-back: #1f1f1f;
+  --color-mtn: #ccc;
+  --color-butt: #9780e5;
+  --color-hed: #1f1f1f;
+  --color-mob: #e666cc;
+  --color-clo: #53ceda;
+  --color-bot: #9780e5;
+}
